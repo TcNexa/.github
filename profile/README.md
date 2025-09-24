@@ -1,12 +1,41 @@
-## Hi there 👋
+# 🏗 TcNexa Framework
 
-<!--
+**TcNexa** is a modular automation framework developed by **ATI Software Engineering DOO Skopje**, built on **Beckhoff TwinCAT 3**.  
+It provides reusable TwinCAT libraries to simplify and standardize industrial machine programming.
 
-**Here are some ideas to get you started:**
+---
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+## 🌟 Key Principles
+- **Modular Design** – Each library focuses on a single purpose.
+- **Reusable Function Blocks** – Write once, use everywhere.
+- **Safety First** – Built-in error handling and safe states.
+- **Hardware Simulation** – Test without real hardware.
+
+---
+
+## 📚 Available Libraries
+
+| Library | Description | Repository |
+|----------|-------------|------------|
+| **TcCylinder** | Control of mono- and bi-stable cylinders | [Link](./TcCylinder) |
+| **TcCylinderThreePos** | Three-position cylinder control | [Link](./TcCylinderThreePos) |
+| **TcValves** | Valve control and utilities | [Link](./TcValves) |
+| **TcSafety** | Safety and emergency stop logic | [Link](./TcSafety) |
+| **TcUtils** | General helper functions and utilities | [Link](./TcUtils) |
+
+---
+
+## ⚙️ Requirements
+| Component            | Minimum Version |
+|----------------------|-----------------|
+| TwinCAT 3 Engineering| 3.1.4024.22 |
+| Visual Studio Integration | Included with TwinCAT |
+| Tc2_Standard | Beckhoff default |
+| Tc2_System   | Beckhoff default |
+
+---
+
+## 🚀 Getting Started
+1. Clone the repositories you need:
+   ```bash
+   git clone https://github.com/ati-software-engineering/TcCylinder.git
