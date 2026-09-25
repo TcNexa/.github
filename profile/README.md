@@ -1,5 +1,3 @@
-Test filip 3
-
 # neXa
 
 **neXa is an open industrial automation framework built on Beckhoff TwinCAT 3.**
